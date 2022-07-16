@@ -50,14 +50,16 @@ button:hover{
     border: 3px solid black;
     margin-top: 50px;
     margin-right: 50px;
+    
 }
 ol{
     margin: 0px 5px;
     padding: 0px;
 }
-.grid-container{
+.grid-containers{
+    
     display: grid;
     width: 450px;
-    height: 450px;
+    height:450px ;
     border: 2px solid black;
 }
