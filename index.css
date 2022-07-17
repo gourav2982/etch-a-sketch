@@ -9,9 +9,11 @@ body{
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
+    background-color:#58F106;
 }
 .main{
     display: flex;
+    background-color:#58F106;
 }
 .menu{
     flex-direction: column;
@@ -26,6 +28,7 @@ body{
     gap: 20px;
     justify-content: start;
     align-items: center;
+    background-color:#58F106;
 }
 .headi{
     text-align: center;
@@ -50,11 +53,15 @@ button:hover{
     border: 3px solid black;
     margin-top: 50px;
     margin-right: 50px;
+    background-color:#58F106;
     
 }
 ol{
     margin: 0px 5px;
     padding: 0px;
+}
+li{
+    margin-bottom: 5px;
 }
 .grid-containers{
     
@@ -62,4 +69,5 @@ ol{
     width: 450px;
     height:450px ;
     border: 2px solid black;
+    background-color: white;
 }
